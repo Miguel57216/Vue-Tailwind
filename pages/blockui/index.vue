@@ -19,14 +19,14 @@ export default {
                 {
                     id: 'basic',
                     label: 'Basic',
-                    component: BasicDoc
+                    component: BasicDoc   
                 },
                 {
                     id: 'document',
                     label: 'Document',
-                    component: DocumentDoc
+                    component: DocumentDoc 
                 },
-                {
+                {    
                     id: 'accessibility',
                     label: 'Accessibility',
                     component: AccessibilityDoc

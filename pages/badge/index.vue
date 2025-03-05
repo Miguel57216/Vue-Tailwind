@@ -12,17 +12,17 @@ import SeverityDoc from '@/doc/badge/SeverityDoc.vue';
 import SizeDoc from '@/doc/badge/SizeDoc.vue';
 
 export default {
-    data() {
+    data() {  
         return {
             docs: [
                 {
                     id: 'import',
                     label: 'Import',
-                    component: ImportDoc
+                    component: ImportDoc  
                 },
-                {
+                {   
                     id: 'basic',
-                    label: 'Basic',
+                    label: 'Basic',  
                     component: BasicDoc
                 },
                 {
