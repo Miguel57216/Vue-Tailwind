@@ -10,7 +10,7 @@ import ImportDoc from '@/doc/card/ImportDoc.vue';
 
 export default {
     data() {
-        return {
+        return {      
             docs: [
                 {
                     id: 'import',
@@ -34,7 +34,7 @@ export default {
                 }
             ],
             presetDoc: {
-                key: 'card'
+                key: 'card'  
             }
         };
     }
